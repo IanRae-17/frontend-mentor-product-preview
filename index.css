@@ -48,9 +48,10 @@ section p {
 .price {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     color: hsl(158, 36%, 37%);
-    margin-top: 0px;
+    margin-top: 24px;
+    gap: 25px;
 }
 
 .price span {
@@ -59,6 +60,7 @@ section p {
     font-weight: 500;
     font-size: 14px;
     color: hsl(228, 12%, 48%);
+    vertical-align:middle;
 }
 
 
@@ -71,7 +73,7 @@ h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 35px;
-    margin-top: 4px;
+    margin-top: 12px;
 }
 
 section button {
@@ -84,4 +86,5 @@ section button {
     border-radius: 8px;
     width: 100%;
     padding: 15px;
+    margin-top: -15px;
 }
